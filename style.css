@@ -361,6 +361,7 @@ body {
 
 .card-top-row {
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
   gap: 14px;
   margin-bottom: 7px; }
@@ -376,6 +377,7 @@ body {
 
 .card-stats {
   display: flex;
+  justify-content: space-between;
   gap: 14px;
   margin-bottom: 8px; }
 
@@ -409,7 +411,7 @@ body {
   color: #000; }
 
 .view-btn.active {
-  color: #000; }
+  color: #3D8EDA; }
 
 .card-bottom-row {
   display: flex;
