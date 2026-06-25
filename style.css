@@ -94,11 +94,13 @@ body {
   left: auto;
   transform: none;
   flex-shrink: 0;
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); }
+  .header-avatar a {
+    text-decoration: none; }
 
 .header-info {
   position: static;
@@ -478,7 +480,8 @@ body {
     height: auto;
     padding: 20px;
     flex-direction: column;
-    text-align: center; }
+    text-align: center;
+    background: #b7cfcc; }
 
   .header-avatar {
     position: relative;
@@ -520,8 +523,12 @@ body {
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
-    width: 90px;
-    height: 90px; }
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; }
 
   #content.grid-view {
     grid-template-columns: repeat(2, 1fr); }
